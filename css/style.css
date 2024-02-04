@@ -1,0 +1,110 @@
+html,body{
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.container header .col-sm-12 #input{
+  background-image: url("../image/search-button.png") !important;
+  background-repeat: no-repeat;
+  background-position:  right;
+  outline: none;
+  border-radius: 4px;
+}
+.container header nav{
+  background-color: #56b3cc;
+  font-family: arima;
+}
+@media(min-width: 1200px){
+  .container header nav{
+    height: 70px;
+  }
+  .container header nav .nav-item{
+    padding: 10px;
+    border-left: 2px solid #70c6dd;
+    border-right: 2px solid #54abc2;
+  }
+}
+@media(min-width: 1200px){
+  .container header nav .nav-item:hover{
+    background-color: #000000;
+  }
+}
+@media(max-width: 992px){
+  .container header nav .nav-item{
+    border-bottom:2px solid #70c6dd;
+    border-top:2px solid #54abc2;
+  }
+}
+.container header nav .nav-item .nav-link ,.container header nav p span{
+  text-shadow: 1px 1px 1px black;
+  
+}
+@font-face{
+  src: url(../fonts/ArimaMadurai-Black.ttf);
+  font-family: 'Arima';
+}
+.container .parent2{
+  border: 4px solid #e9e9e8;
+  border-radius: 5px;
+ 
+}
+.container{
+  background-color: #f8f8f4;
+}
+.container-lg{
+  padding-top: 2px;
+}
+@media(max-width: 992px){
+  .container .parent2 .text-dark{
+    font-size: 15px;
+  }
+}
+@media(max-width: 992px){
+  .container .parent3 h3{
+  font-size: 18px;
+}
+}
+.container .parent3 h3, .container .parent2 .text-dark{
+  font-family: arima;
+}
+@media(min-width: 1200px){
+  .container .parent2 .text-dark{
+    font-size: 35px !important;
+  }
+}
+@media(max-width: 992px){
+  .container .parent3 p{
+    font-size: 14px !important;
+  }
+}
+.container .parent4 .card .card-title{
+  font-family: arima;
+}
+@media(max-width: 992px){
+ .container .parent4 .card .card-title{
+    font-size: 20px;
+  }
+  } 
+@media(max-width: 992px){
+ .container .parent4 .card  .card-text{
+    font-size: 15px;
+  }
+  }
+.container .div1 h5{
+  font-family: arima;
+} 
+@media(max-width: 992px){
+  .container .div1 p{
+    font-size: 15px;
+  }
+}
+.container .div1{
+  padding-bottom: 50px;
+}
+.footer p{
+  /*! height: 150px; */
+}
+
+.text-center {
+  margin-bottom: -3rem !important;
+  padding: 10px !important;
+}
